@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../assets/profile.jpg';
 
 const About = () => {
   return (
@@ -10,10 +11,8 @@ const About = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end animate-slide-up">
             <div className="relative">
-              <div className="w-80 h-80 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center shadow-2xl">
-                <svg className="w-32 h-32 text-dark-50" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H19V9Z" />
-                </svg>
+              <div className="w-80 h-80 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center shadow-2xl overflow-hidden">
+                <img src={profileImg} alt="Kelvin Munene" className="w-full h-full object-cover rounded-full" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary-400 rounded-full flex items-center justify-center shadow-lg">
                 <svg className="w-12 h-12 text-dark-900" fill="currentColor" viewBox="0 0 24 24">
