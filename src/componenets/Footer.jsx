@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-primary-400">Kelvin's Portfolio</h3>
             <p className="text-dark-400 leading-relaxed">
-              Creating compelling visual stories and professional content for the digital age.
+              building scalable and efficient applications using modern technologies like Flutter for mobile, React for frontend, Node.js and Flask for backend, and Firebase for real-time data management. To deliver solutions that solve real-world problems
             </p>
           </div>
 
