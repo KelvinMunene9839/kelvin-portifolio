@@ -64,6 +64,11 @@ const About = () => {
                 <p className="text-dark-300 mb-2">École Secondaire Saint Joseph La Travailleuse</p>
                 <p className="text-dark-400">2023 - 2025</p>
               </div>
+                <div className="bg-dark-700 p-6 rounded-lg">
+                <h4 className="text-dark-50 font-medium mb-2">Bachelors os science in software engineering</h4>
+                <p className="text-dark-300 mb-2">African Leardership Universty</p>
+                <p className="text-dark-400">2026 -</p>
+              </div>
             </div>
           </div>
         </div>
