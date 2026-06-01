@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing my projects, skills, and professional experience as a full-stack developer.
 
-**🌐 Live Site:** [Add your deployed URL here]
+**🌐 Live Site:** https://kelvinmunene-portifolio-63289e.netlify.app/
 
 ---
 
