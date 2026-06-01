@@ -1,16 +1,175 @@
-# React + Vite
+# 💼 Kelvin Munene - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website showcasing my projects, skills, and professional experience as a full-stack developer.
 
-Currently, two official plugins are available:
+**🌐 Live Site:** [Add your deployed URL here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✨ **Modern, Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- ⚡ **Fast Performance** - Built with Vite for rapid development and optimized builds
+- 🎨 **Beautiful UI** - Styled with Tailwind CSS for a professional appearance
+- ⚙️ **Component-Based** - Modular React architecture for maintainability
+- 📱 **Mobile-First** - Optimized for all screen sizes
+- 🚀 **Production-Ready** - Deployed and live
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|---------------|
+| **Frontend Framework** | React 19.1 |
+| **Build Tool** | Vite 7.1 |
+| **Styling** | Tailwind CSS 3.4 |
+| **Language** | JavaScript (ES6+) |
+| **Linting** | ESLint |
+| **CSS Processing** | PostCSS & Autoprefixer |
+
+---
+
+## 📋 Portfolio Sections
+
+- 🏠 **Home** - Professional introduction and headline
+- 👨‍💼 **About** - Background and professional summary
+- 💻 **Projects** - Showcase of featured projects with links
+- 🛠️ **Skills** - Technical expertise and proficiencies
+- 📧 **Contact** - Ways to get in touch
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/KelvinMunene9839/kelvin-portifolio.git
+cd kelvin-portifolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+# Create optimized production build
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+---
+
+## 📁 Project Structure
+
+```
+kelvin-portifolio/
+├── src/
+│   ├── components/        # React components
+│   ├── pages/            # Page components
+│   ├── assets/           # Images and media
+│   ├── styles/           # Global styles
+│   ├── App.jsx
+│   └── main.jsx
+├── public/               # Static files
+├── index.html
+├── tailwind.config.js    # Tailwind configuration
+├── vite.config.js        # Vite configuration
+└── package.json
+```
+
+---
+
+## 🎨 Customization
+
+### Update Personal Information
+Edit your details in the respective component files:
+- Profile image: `src/assets/`
+- Personal info: `src/components/About.jsx`
+- Projects: `src/data/projects.js` or `src/components/Projects.jsx`
+- Contact links: `src/components/Contact.jsx`
+
+### Styling
+- **Tailwind CSS**: Modify `tailwind.config.js`
+- **Custom CSS**: Add global styles in `src/styles/`
+- **Component styles**: Use Tailwind classes directly in JSX
+
+---
+
+## 🌐 Deployment
+
+### Deploy to Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel
+```
+
+### Deploy to Netlify
+```bash
+npm install -g netlify-cli
+netlify deploy --prod --dir=dist
+```
+
+### Deploy to GitHub Pages
+1. Update `vite.config.js` with your repo name as base
+2. Run `npm run build`
+3. Push the `dist/` folder to `gh-pages` branch
+
+---
+
+## 📊 Performance
+
+- ⚡ Fast load times with Vite's optimized bundling
+- 🎯 Optimized images and assets
+- 📦 Small bundle size with tree-shaking
+- 🚀 SEO-friendly structure
+
+---
+
+## 🤝 Contributing
+
+Found a bug or have a suggestion? Feel free to:
+1. Open an issue
+2. Fork the repository
+3. Create a pull request with improvements
+
+---
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 💬 Get In Touch
+
+I'd love to hear from you! Check out my main GitHub profile for more projects and ways to connect:
+
+**📧 Email:** [your.email@example.com]  
+**💼 LinkedIn:** [Your LinkedIn Profile]  
+**🐦 Twitter:** [@YourHandle]  
+**🌐 Personal Website:** [Your Website]
+
+---
+
+<div align="center">
+
+**⭐ If you like this portfolio, please consider starring the repository!**
+
+Made with ❤️ by Kelvin Munene
+
+</div>
